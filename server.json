@@ -1,7 +1,10 @@
 {
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.rico-c/youshow-pte",
-  "description": "Read-only MCP server for PTE Academic question types, public sample questions, test format and Australian score requirements. No API key required.",
+  "title": "YoushowPTE MCP",
+  "description": "Read-only MCP for PTE Academic question types, sample questions, test format and score requirements.",
   "version": "1.0.0",
+  "websiteUrl": "https://pte.youshowedu.com/mcp",
   "repository": {
     "url": "https://github.com/rico-c/mcp-youshow-pte",
     "source": "github"
