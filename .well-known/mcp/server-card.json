@@ -1,0 +1,36 @@
+{
+  "serverInfo": {
+    "name": "youshow-pte",
+    "title": "YoushowPTE",
+    "version": "1.0.0"
+  },
+  "transport": {
+    "type": "streamable-http",
+    "url": "https://pte.youshowedu.com/api/mcp"
+  },
+  "capabilities": {
+    "tools": {}
+  },
+  "authentication": {
+    "required": false
+  },
+  "instructions": "Read-only MCP server for PTE Academic question types, public sample questions, test format and Australian score requirements. No API key required.",
+  "tools": [
+    {
+      "name": "list_question_types",
+      "description": "List all 22 PTE Academic question types by skill, with bank size and a public practice page."
+    },
+    {
+      "name": "search_questions",
+      "description": "Find public PTE sample questions by question type, skill, difficulty, prediction status or keyword."
+    },
+    {
+      "name": "get_test_format",
+      "description": "Get the three-part PTE Academic test structure with official duration ranges and question types."
+    },
+    {
+      "name": "get_score_requirements",
+      "description": "Look up Australian Competent, Proficient and Superior English thresholds plus Temporary Graduate visa 485 minimums."
+    }
+  ]
+}
